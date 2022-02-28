@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Tutorial bernafas untuk pemula",
+      "author": "aryahmph",
+      "slug": "tutorial-bernafas-untuk-pemula"
+    },
+    {
+      "id": 2,
+      "title": "Engga tau",
+      "author": "irvanma_",
+      "slug": "engga-tau"
+    },
+    {
+      "id": 3,
+      "title": "Engga tau juga",
+      "author": "naya",
+      "slug": "engga-tau-juga"
+    }
+  ]
+}

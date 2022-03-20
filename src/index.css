@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
+@font-face {
+    font-family: "Google Sans";
+    font-weight: 400;
+    src: local("Google Sans"), url("/public/font/GoogleSans-Regular-v1.27.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Google Sans";
+    font-weight: 500;
+    src: local("Google Sans"), url("/public/font/GoogleSans-Medium-v1.27.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Google Sans";
+    font-weight: 600;
+    src: local("Google Sans"), url("/public/font/GoogleSans-Bold-v1.27.ttf") format("truetype");
+}
 @tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}

@@ -127,7 +127,7 @@ function Home() {
                 <div className="flex items-end">
                     <h2 className="text-xl xl:text-2xl 2xl:text-3xl text-[#0F9D58] font-medium">Our Activity</h2>
                     <Link to="/events">
-                        <p className="text-sm xl:text-base font-medium text-gray-600 hover:text-gray-800 transition ml-2 xl:ml-3">More <span className="text-xs">></span> </p>
+                        <p className="text-sm xl:text-base font-medium text-gray-600 hover:text-gray-800 transition ml-2 xl:ml-3">More <span className="text-xs"></span> </p>
                     </Link>
                 </div>
                 <div className="flex flex-wrap justify-between items-center mt-5">

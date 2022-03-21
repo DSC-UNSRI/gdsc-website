@@ -11,7 +11,8 @@ function App() {
         <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' element={<Home />} />
+                <Route path='events' element={<Events />} />
                 <Route path='members' element={<Members/>}/>
                 <Route path='events/:eventId' element={<EventDetails/>}/>
                 <Route path='*' element={<NotFound/>}/>

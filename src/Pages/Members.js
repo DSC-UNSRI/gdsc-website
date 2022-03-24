@@ -31,7 +31,7 @@ function Members() {
             </div>
             {/*End Leader and CO-Leader*/}
             {/*Core Team*/}
-            <div className="flex flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-24 mx-auto">
+            <div className="flex relative flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-24 mx-auto">
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Core Team</h2>
                 </div>
@@ -122,14 +122,16 @@ function Members() {
                         </div>
                     </div>
                 </div>
+                <img className="absolute right-[-3rem] bottom-[-10rem] z-50" src="/Member/lingkaranKecilKuning.png" alt="" />
             </div>
             {/*End Core team*/}
             {/*Member Project Management team*/}
             <div
-                className="flex flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-[5rem] mx-auto">
+                className="flex relative flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-[5rem] mx-auto">
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Project Management Team Members</h2>
                 </div>
+                <img className="absolute lg:right-[-9rem] 2xl:right-[-7rem] lg:top-[-2rem] 2xl:top-0 z-[-1]" src="/Member/lingkaranHijauPenuh.png" alt="" />
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                     <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
@@ -241,12 +243,12 @@ function Members() {
                 </div>
             </div>
             {/*Member Relationship team*/}
-            <div className="flex flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-[5rem] mx-auto">
+            <div className="flex relative flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-[5rem] mx-auto">
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Relationship Team Members</h2>
                 </div>
                 <div
-                    className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                    className="flex z-50 flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                     <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
@@ -301,6 +303,8 @@ function Members() {
                         </div>
                     </div>
                 </div>
+                <img className="absolute left-[1rem] top-[15rem]" src="/Member/lingkaranHijauKecil.png" alt="" />
+                <img className="absolute lg:left-[-5rem] 2xl:left-[-7rem] lg:bottom-[-2rem] 2xl:bottom-[-3rem] z-[-1px]" src="/Member/lingkaranHijauDonat.png" alt="" />
             </div>
             {/*Member Machine Learning team*/}
             <div
@@ -552,6 +556,7 @@ function Members() {
                             </span>
                         </div>
                     </div>
+                    <img className="absolute lg:right-[7rem] 2xl:right-[9rem] z-[-1]" src="/Member/kotakKuning.png" alt="" />
                 </div>
             </div>
             {/*Member Back End team*/}
@@ -562,7 +567,7 @@ function Members() {
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
+                    <div className="flex relative flex-row text-center items-center justify-center gap-8 xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -614,6 +619,7 @@ function Members() {
                                 </div>
                             </span>
                         </div>
+                        <img className="absolute lg:left-[7rem] 2xl:left-[-41rem] z-[-1]" src="/Member/kotakMerah.png" alt="" />
                     </div>
                 </div>
             </div>

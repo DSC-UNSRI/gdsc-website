@@ -187,7 +187,7 @@ function Members() {
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
+                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-8 2xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -249,7 +249,7 @@ function Members() {
                 </div>
                 <div
                     className="flex z-50 flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
+                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-8 2xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -314,7 +314,7 @@ function Members() {
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
+                    <div className="flex flex-row text-center items-center justify-center xl:gap-14 2xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -377,7 +377,7 @@ function Members() {
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-5">
+                    <div className="flex flex-row text-center items-center justify-center gap-2 xl:gap-2 2xl:gap-5">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[95%] items-center gap-2 xl:gap-2">
@@ -440,7 +440,7 @@ function Members() {
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
+                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-12 2xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -503,7 +503,7 @@ function Members() {
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-20">
+                    <div className="flex flex-row text-center items-center justify-center gap-14 xl:gap-14 2xl:gap-20">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -561,13 +561,13 @@ function Members() {
             </div>
             {/*Member Back End team*/}
             <div
-                className="flex flex-col max-w-full xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-[5rem] mx-auto">
+                className="flex flex-col xl:max-w-full 2xl:max-w-full items-center text-center gap-4 xl:gap-8 mb-8 xl:mb-[5rem] mx-auto">
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Back End Development Team Members</h2>
                 </div>
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                    <div className="flex relative flex-row text-center items-center justify-center gap-8 xl:gap-16">
+                    <div className="flex relative flex-row text-center items-center justify-center gap-8 xl:gap-8 2xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/memberCowok1.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">

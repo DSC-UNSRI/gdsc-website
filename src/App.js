@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import EventDetails from "./Pages/EventDetails";
 import NotFound from "./Pages/NotFound";
+import Footer from "./Components/Footer";
+import Community from "./Pages/Community";
 
 function App() {
     return (
@@ -11,10 +13,12 @@ function App() {
             <Navbar/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
+                <Route path='community' element={<Community/>}/>
                 <Route path='events' element={<Events/>}/>
                 <Route path='events/:eventId' element={<EventDetails/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 }

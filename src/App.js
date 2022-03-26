@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import EventDetails from "./Pages/EventDetails";
 import NotFound from "./Pages/NotFound";
+import ContactUs from "./Pages/Contactus";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='events' element={<Events/>}/>
                 <Route path='events/:eventId' element={<EventDetails/>}/>
+                <Route path='ContactUs' element={<ContactUs/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>

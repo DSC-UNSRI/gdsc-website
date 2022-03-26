@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom';
 import App from '../App';
 
 
+
 function Contactus(){
     return (
-        <main className = "w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white xl:bg-red-200 2xl:bg-slate-400 overflow-x-hidden mt-16 pb-24">
-        <div style={{backgroundImage: "url(/bg-home.png)", backgroundSize: "cover", backgroundRepeat: "none", backgroundPosition:"bottom"}} className= "h-screen">
+        <main className = "w-screen h-max text-gray-900" >
+        <div style={{backgroundImage: "url(/bg-complete2.png)", backgroundSize: "cover", backgroundRepeat: "none" }} className= "w-screen bg-cover top-0 bottom-0 lg:pb-60 xl:pb-80">
 
-            <div className="lg:mx-40 xl:mx-48 2xl:mx-64 w-[40vw] mt-20 relative">
+            <div className="lg:mx-40 xl:mx-48 2xl:mx-64 w-[40vw] mt-36">
                 <h1 className="text-lg text-blue-600 font-bold">Get in Touch with Us</h1>
                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper diam vitae consectetur mollis. Phasellus iaculis metus
                     non diam mollis, vitae malesuada lorem dapibus.
-            <div className="absolute right-[-700px] top-[-30px]">
+            <div className="absolute  top-[90px] right-[-40px]">
                         <img className="w-[50em] xl:w-[63em] xl:h-[8em]" src="/hiasan.png" alt="hiasan"/>
             </div>
                 </div>

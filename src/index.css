@@ -1,5 +1,8 @@
+@import-normalize;
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: "Google Sans";
     font-weight: 400;
@@ -16,8 +19,40 @@
     font-weight: 600;
     src: local("Google Sans"), url("/public/font/GoogleSans-Bold-v1.27.ttf") format("truetype");
 }
-@tailwind utilities;
 
-body{
-    overflow-x: hidden;
+body {
+    @apply overflow-x-hidden;
+}
+
+@layer components {
+    .event-item {
+        @apply w-80 h-44 xl:w-96 2xl:w-[25rem] xl:h-56 relative overflow-hidden rounded-xl after:absolute after:w-full after:h-full
+        after:bg-white/100 after:inset-0 after:opacity-0 hover:after:opacity-100 hover:after:bg-white/50 after:transition-all after:duration-500
+        after:content-['View_Detail'] after:text-center after:pt-[25%] after:text-gray-500 after:font-medium after:drop-shadow-sm;
+    }
+
+    .event-img {
+        @apply w-full h-full object-cover transition duration-300 delay-150 scale-105 group-hover:scale-100;
+    }
+
+    .footer {
+        @apply px-20 py-16 xl:p-28 bg-white shadow-[0_1px_15px_0_rgb(0,0,0,0.1)];
+    }
+
+    .footer-grid {
+        @apply grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-5 md:gap-2 lg:gap-3;
+    }
+
+    .footer-item {
+        @apply flex flex-col gap-3;
+    }
+
+    .footer-item a {
+        @apply no-underline text-[#A3A3A3] hover:text-gray-900 transition-all duration-300 ease-linear;
+    }
+
+    .footer-button {
+        @apply bg-white border border-[#A3A3A366] text-[#4285F4] hover:border-[#4285F4] duration-150 hover:bg-[#4285F4]
+        hover:text-white rounded-full hover:shadow-lg py-1 w-1/2 px-3 lg:w-11/12 xl:w-5/6 text-center !important;
+    }
 }

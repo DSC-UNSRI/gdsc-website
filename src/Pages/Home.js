@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import EventItem from "../Components/EventItem";
 
 function Home() {
     return (
@@ -99,7 +100,7 @@ function Home() {
                         <div className="xl:tracking-wide">
                             <img src="/ferza.jpg" alt="Ferza Reyaldi"
                                  className="w-48 h-48 xl:w-52 xl:h-52 2xl:w-60 2xl:h-60 object-cover rounded-full"/>
-                            <p className="mt-5 text-base xl:text-lg font-bold mt-5 mb-1 tracking-wider xl:tracking-normal">Ferza
+                            <p className="mt-5 text-base xl:text-lg font-bold mb-1 tracking-wider xl:tracking-normal">Ferza
                                 Reyaldi</p>
                             <p className="text-sm text-gray-800">Sriwijaya University</p>
                             <p className="text-sm text-gray-800">GDSC Lead</p>
@@ -107,7 +108,7 @@ function Home() {
                         <div className="xl:tracking-wide">
                             <img src="/ferza.jpg" alt="Ferza Reyaldi"
                                  className="w-48 h-48 xl:w-52 xl:h-52 2xl:w-60 2xl:h-60 object-cover rounded-full"/>
-                            <p className="mt-5 text-base xl:text-lg font-bold mt-5 mb-1 tracking-wider xl:tracking-normal">Ferza
+                            <p className="mt-5 text-base xl:text-lg font-bold mb-1 tracking-wider xl:tracking-normal">Ferza
                                 Reyaldi</p>
                             <p className="text-sm text-gray-800">Sriwijaya University</p>
                             <p className="text-sm text-gray-800">GDSC Lead</p>
@@ -127,89 +128,45 @@ function Home() {
                 <div className="flex items-end">
                     <h2 className="text-xl xl:text-2xl 2xl:text-3xl text-[#0F9D58] font-medium">Our Activity</h2>
                     <Link to="/events">
-                        <p className="text-sm xl:text-base font-medium text-gray-600 hover:text-gray-800 transition ml-2 xl:ml-3">More <span className="text-xs"></span> </p>
+                        <p className="text-sm xl:text-base font-medium text-gray-600 hover:text-gray-800 transition ml-2 xl:ml-3">More &rsaquo;&rsaquo;</p>
                     </Link>
                 </div>
                 <div className="flex flex-wrap justify-between items-center mt-5">
                     {/*Item*/}
-                    <div className="mb-12">
-                        <Link to="/events/cracking-coding-interview">
-                            <div className="group w-80 h-44 xl:w-96 xl:h-52 2xl:w-[25rem] xl:h-56 relative overflow-hidden rounded-xl after:absolute after:w-full after:h-full
-                            after:bg-white/100 after:inset-0 after:opacity-0 hover:after:opacity-100 hover:after:bg-white/50 after:transition-all after:duration-500 after:content-['View_Detail'] after:text-center after:pt-[25%] after:text-gray-500 after:font-medium after:drop-shadow-sm">
-                                <img src="/webinar.jpg" alt=""
-                                     className="w-full h-full object-cover  transition duration-300 delay-150 scale-105  group-hover:scale-100"/>
-                            </div>
-                            <div className="mt-5 space-y-1">
-                                <h4 className="text-lg xl:text-xl font-medium hover:underline">Cracking Coding Interview</h4>
-                                <p className="text-sm xl:text-base">Agus Sentosa Hermawan</p>
-                                <div className="flex items-center space-x-1.5">
-                                    <p className="text-xs xl:text-sm text-gray-600">March 6, 2022</p>
-                                    <span className="w-1 h-1 inline-block rounded-full bg-[#0F9D58]"/>
-                                    <p className="text-xs xl:text-sm text-[#0F9D58]">Webinar</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
+                    <EventItem 
+                        title="Cracking Coding Interview"
+                        img="/webinar.jpg"
+                        author="Agus Sentosa Hermawan"
+                        date="March 6, 2022"
+                        type="Webinar"
+                    />
                     {/*  End of Item  */}
                     {/*Item*/}
-                    <div className="mb-12">
-                        <Link to="/events/cracking-coding-interview">
-                            <div className="group w-80 h-44 xl:w-96 xl:h-52 2xl:w-[25rem] xl:h-56 relative overflow-hidden rounded-xl after:absolute after:w-full after:h-full
-                            after:bg-white/100 after:inset-0 after:opacity-0 hover:after:opacity-100 hover:after:bg-white/50 after:transition-all after:duration-500 after:content-['View_Detail'] after:text-center after:pt-[25%] after:text-gray-500 after:font-medium after:drop-shadow-sm">
-                                <img src="/webinar.jpg" alt=""
-                                     className="w-full h-full object-cover  transition duration-300 delay-150 scale-105  group-hover:scale-100"/>
-                            </div>
-                            <div className="mt-5 space-y-1">
-                                <h4 className="text-lg xl:text-xl font-medium hover:underline">Cracking Coding Interview</h4>
-                                <p className="text-sm xl:text-base">Agus Sentosa Hermawan</p>
-                                <div className="flex items-center space-x-1.5">
-                                    <p className="text-xs xl:text-sm text-gray-600">March 6, 2022</p>
-                                    <span className="w-1 h-1 inline-block rounded-full bg-[#0F9D58]"/>
-                                    <p className="text-xs xl:text-sm text-[#0F9D58]">Webinar</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
+                    <EventItem 
+                        title="Cracking Coding Interview"
+                        img="/webinar.jpg"
+                        author="Agus Sentosa Hermawan"
+                        date="March 6, 2022"
+                        type="Webinar"
+                    />
                     {/*  End of Item  */}
                     {/*Item*/}
-                    <div className="mb-12">
-                        <Link to="/events/cracking-coding-interview">
-                            <div className="group w-80 h-44 xl:w-96 xl:h-52 2xl:w-[25rem] xl:h-56 relative overflow-hidden rounded-xl after:absolute after:w-full after:h-full
-                            after:bg-white/100 after:inset-0 after:opacity-0 hover:after:opacity-100 hover:after:bg-white/50 after:transition-all after:duration-500 after:content-['View_Detail'] after:text-center after:pt-[25%] after:text-gray-500 after:font-medium after:drop-shadow-sm">
-                                <img src="/webinar.jpg" alt=""
-                                     className="w-full h-full object-cover  transition duration-300 delay-150 scale-105  group-hover:scale-100"/>
-                            </div>
-                            <div className="mt-5 space-y-1">
-                                <h4 className="text-lg xl:text-xl font-medium hover:underline">Cracking Coding Interview</h4>
-                                <p className="text-sm xl:text-base">Agus Sentosa Hermawan</p>
-                                <div className="flex items-center space-x-1.5">
-                                    <p className="text-xs xl:text-sm text-gray-600">March 6, 2022</p>
-                                    <span className="w-1 h-1 inline-block rounded-full bg-[#0F9D58]"/>
-                                    <p className="text-xs xl:text-sm text-[#0F9D58]">Webinar</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
+                    <EventItem 
+                        title="Cracking Coding Interview"
+                        img="/webinar.jpg"
+                        author="Agus Sentosa Hermawan"
+                        date="March 6, 2022"
+                        type="Webinar"
+                    />
                     {/*  End of Item  */}
                     {/*Item*/}
-                    <div className="mb-12">
-                        <Link to="/events/cracking-coding-interview">
-                            <div className="group w-80 h-44 xl:w-96 xl:h-52 2xl:w-[25rem] xl:h-56 relative overflow-hidden rounded-xl after:absolute after:w-full after:h-full
-                            after:bg-white/100 after:inset-0 after:opacity-0 hover:after:opacity-100 hover:after:bg-white/50 after:transition-all after:duration-500 after:content-['View_Detail'] after:text-center after:pt-[25%] after:text-gray-500 after:font-medium after:drop-shadow-sm">
-                                <img src="/webinar.jpg" alt=""
-                                     className="w-full h-full object-cover  transition duration-300 delay-150 scale-105  group-hover:scale-100"/>
-                            </div>
-                            <div className="mt-5 space-y-1">
-                                <h4 className="text-lg xl:text-xl font-medium hover:underline">Cracking Coding Interview</h4>
-                                <p className="text-sm xl:text-base">Agus Sentosa Hermawan</p>
-                                <div className="flex items-center space-x-1.5">
-                                    <p className="text-xs xl:text-sm text-gray-600">March 6, 2022</p>
-                                    <span className="w-1 h-1 inline-block rounded-full bg-[#0F9D58]"/>
-                                    <p className="text-xs xl:text-sm text-[#0F9D58]">Webinar</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
+                    <EventItem 
+                        title="Cracking Coding Interview"
+                        img="/webinar.jpg"
+                        author="Agus Sentosa Hermawan"
+                        date="March 6, 2022"
+                        type="Webinar"
+                    />
                     {/*  End of Item  */}
                 </div>
             </div>

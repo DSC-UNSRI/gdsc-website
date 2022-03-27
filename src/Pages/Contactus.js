@@ -10,7 +10,7 @@ function Contactus(){
         <div style={{backgroundImage: "url(/bg-complete2.png)", backgroundSize: "cover", backgroundRepeat: "none" }} className= "w-screen bg-cover top-0 bottom-0 lg:pb-60 xl:pb-80 2xl:pb-96">
 
             <div className="lg:mx-40 xl:mx-48 2xl:mx-64 w-[40vw] mt-36">
-                <h1 className="text-lg text-blue-600 font-bold">Get in Touch with Us</h1>
+                <h1 className="text-xl text-blue-600 font-bold">Get in Touch with Us</h1>
                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper diam vitae consectetur mollis. Phasellus iaculis metus
                     non diam mollis, vitae malesuada lorem dapibus.
             <div className="absolute  top-[90px] right-[-40px]">
@@ -59,7 +59,7 @@ function Contactus(){
                 {/* End white */}
 
                 {/* Blue form */}
-                <div className = "px-10 pt-10 text-white border rounded-md w-[30vw]" style={{backgroundImage: "url(/Bg-blue.png)", backgroundSize: "cover"}}>
+                <div className = "px-10 pt-10 text-white border shadow-xl rounded-md w-[30vw]" style={{backgroundImage: "url(/Bg-blue.png)", backgroundSize: "cover"}}>
                     <h2 className="font-bold text-xl pb-4"> Contact Us </h2>
                     <div className="pb-6">
                         Email <br></br>

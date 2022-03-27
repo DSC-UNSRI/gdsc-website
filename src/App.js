@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Events from "./Pages/Events";
+import Members from "./Pages/Members";
 import EventDetails from "./Pages/EventDetails";
 import NotFound from "./Pages/NotFound";
 import ContactUs from "./Pages/Contactus";
@@ -14,7 +15,8 @@ function App() {
         <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' element={<Home />} />
+                <Route path='members' element={<Members/>}/>
                 <Route path='community' element={<Community/>}/>
                 <Route path='events' element={<Events/>}/>
                 <Route path='events/:eventId' element={<EventDetails/>}/>

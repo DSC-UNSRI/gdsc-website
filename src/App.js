@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import EventDetails from "./Pages/EventDetails";
+import EventDetailsWithDay from "./Pages/EventDetailsWithDay";
 import NotFound from "./Pages/NotFound";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='events' element={<Events/>}/>
                 <Route path='events/:eventId' element={<EventDetails/>}/>
+                <Route path='events/:eventId/:eventId' element={<EventDetailsWithDay/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>

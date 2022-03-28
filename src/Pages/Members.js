@@ -6,7 +6,7 @@ function Members() {
             <div
                 className="relative flex flex-col w-[90%] 2xl:w-[90%] text-center text-gray-900 align-center justify-center gap-8 xl:gap-16 mb-8 xl:mb-16 mx-auto">
                 <div>
-                    <img className="absolute top-[2rem] left-[-8rem]" src="/Member/kotakKuning.png" alt="" />
+                    <img className="absolute top-[2rem] left-[-5rem]" src="/Member/kotakKuning.png" alt="" />
                     <h1 className="font-normal text-4xl xl:text-4xl 2xl:text-6xl leading-tight">Members</h1>
                 </div>
                 <div className="flex flex-col gap-4 xl:gap-8">
@@ -35,7 +35,7 @@ function Members() {
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Core Team</h2>
                 </div>
-                <div className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-8 items-center justify-center text-center gap-4 xl:gap-4 2xl:gap-8 mx-auto bg-[#F27368] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                <div className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-8 items-center justify-center text-center gap-4 xl:gap-4 2xl:gap-8 mx-auto bg-[#F27368] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)] ">
                     <div className="flex w-[95%] xl:w-full 2xl:w-full flex-row text-center items-center justify-center gap-8 xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img className="w-auto" src="/Member/dini.png" alt="" />
@@ -124,7 +124,7 @@ function Members() {
                         </div>
                     </div>
                 </div>
-                <img className="absolute right-[-3rem] bottom-[-10rem] z-50" src="/Member/lingkaranKecilKuning.png" alt="" />
+                <img className="absolute right-[-7rem] xl:right-[-3rem] 2xl:right-[-3rem] bottom-[-5rem] xl:bottom-[-10rem] 2xl:bottom-[-10rem] z-50" src="/Member/lingkaranKecilKuning.png" alt="" />
             </div>
             {/*End Core team*/}
             {/*Member Project Management team*/}
@@ -133,7 +133,7 @@ function Members() {
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Project Management Team Members</h2>
                 </div>
-                <img className="absolute lg:right-[-9rem] 2xl:right-[-7rem] lg:top-[-2rem] 2xl:top-0 z-[-1]" src="/Member/lingkaranHijauPenuh.png" alt="" />
+                <img className="absolute lg:right-[-10rem] xl:right-[-7rem] 2xl:right-[-7rem] lg:top-[-2rem] 2xl:top-0 z-[-1]" src="/Member/lingkaranHijauPenuh.png" alt="" />
                 <div
                     className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-24 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#FFE28D] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                     <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
@@ -305,8 +305,8 @@ function Members() {
                         </div>
                     </div>
                 </div>
-                <img className="absolute xl:left-[0.5rem] xl:top-[15rem] 2xl:left-[1rem] 2xl:top-[15rem]" src="/Member/lingkaranHijauKecil.png" alt="" />
-                <img className="absolute xl:left-[-11rem] 2xl:left-[-7rem] lg:bottom-[-2rem] 2xl:bottom-[-3rem] z-[-1px]" src="/Member/lingkaranHijauDonat.png" alt="" />
+                <img className="absolute lg:left-[0.5rem] lg:top-[5rem] xl:left-[0.5rem] xl:top-[15rem] 2xl:left-[1rem] 2xl:top-[15rem]" src="/Member/lingkaranHijauKecil.png" alt="" />
+                <img className="absolute lg:left-[-12rem] lg:bottom-[-3rem] xl:left-[-11rem] xl:bottom-[-3rem] 2xl:left-[-7rem] 2xl:bottom-[-3rem] z-[-1px]" src="/Member/lingkaranHijauDonat.png" alt="" />
             </div>
             {/*Member Machine Learning team*/}
             <div
@@ -558,7 +558,7 @@ function Members() {
                             </span>
                         </div>
                     </div>
-                    <img className="absolute xl:w-[90px] 2xl:2-full xl:right-[0.6rem] 2xl:right-[9rem] z-[-1]" src="/Member/kotakKuning.png" alt="" />
+                    <img className="absolute xl:w-[90px] 2xl:2-full lg:right-[-2rem] xl:right-[0.6rem] 2xl:right-[9rem] z-[-1]" src="/Member/kotakKuning.png" alt="" />
                 </div>
             </div>
             {/*Member Back End team*/}
@@ -621,7 +621,7 @@ function Members() {
                                 </div>
                             </span>
                         </div>
-                        <img className="absolute left-[10rem] xl:left-[-30rem] 2xl:left-[-41rem] z-[-1]" src="/Member/kotakMerah.png" alt="" />
+                        <img className="absolute left-[-31rem] xl:left-[-30rem] 2xl:left-[-41rem] z-[-1]" src="/Member/kotakMerah.png" alt="" />
                     </div>
                 </div>
             </div>

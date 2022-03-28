@@ -79,7 +79,7 @@ function Members() {
                             </span>
                         </div>
                     </div>
-                    <div className="flex flex-row text-center items-center justify-center gap-10 xl:gap-20">
+                    <div className="flex flex-row text-center items-center justify-center xl:gap-20 2xl:gap-20">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/farras.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
@@ -303,8 +303,8 @@ function Members() {
                         </div>
                     </div>
                 </div>
-                <img className="absolute left-[1rem] top-[15rem]" src="/Member/lingkaranHijauKecil.png" alt="" />
-                <img className="absolute lg:left-[-5rem] 2xl:left-[-7rem] lg:bottom-[-2rem] 2xl:bottom-[-3rem] z-[-1px]" src="/Member/lingkaranHijauDonat.png" alt="" />
+                <img className="absolute xl:left-[0.5rem] xl:top-[15rem] 2xl:left-[1rem] 2xl:top-[15rem]" src="/Member/lingkaranHijauKecil.png" alt="" />
+                <img className="absolute xl:left-[-11rem] 2xl:left-[-7rem] lg:bottom-[-2rem] 2xl:bottom-[-3rem] z-[-1px]" src="/Member/lingkaranHijauDonat.png" alt="" />
             </div>
             {/*Member Machine Learning team*/}
             <div
@@ -556,7 +556,7 @@ function Members() {
                             </span>
                         </div>
                     </div>
-                    <img className="absolute lg:right-[7rem] 2xl:right-[9rem] z-[-1]" src="/Member/kotakKuning.png" alt="" />
+                    <img className="absolute xl:w-[90px] 2xl:2-full xl:right-[0.6rem] 2xl:right-[9rem] z-[-1]" src="/Member/kotakKuning.png" alt="" />
                 </div>
             </div>
             {/*Member Back End team*/}
@@ -619,7 +619,7 @@ function Members() {
                                 </div>
                             </span>
                         </div>
-                        <img className="absolute lg:left-[7rem] 2xl:left-[-41rem] z-[-1]" src="/Member/kotakMerah.png" alt="" />
+                        <img className="absolute left-[10rem] xl:left-[-30rem] 2xl:left-[-41rem] z-[-1]" src="/Member/kotakMerah.png" alt="" />
                     </div>
                 </div>
             </div>

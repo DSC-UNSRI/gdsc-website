@@ -35,25 +35,25 @@ function Members() {
                 <div>
                     <h2 className="font-medium text-lg xl:text-xl 2xl:text-2xl ">Meet Our Core Team</h2>
                 </div>
-                <div className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-8 items-center justify-center text-center gap-4 xl:gap-8 mx-auto bg-[#F27368] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                <div className="flex flex-col max-w-[90%] lg:w-full xl:w-[90%] 2xl:w-[75%] p-8 xl:px-0 xl:py-8 items-center justify-center text-center gap-4 xl:gap-4 2xl:gap-8 mx-auto bg-[#F27368] rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                     <div className="flex flex-row text-center items-center justify-center gap-8 xl:gap-16">
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/dini.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-bold text-xl xl:text-2xl">Dini Andriani</h3>
+                                <h3 className="font-bold text-lg xl:text-xl 2xl:text-2xl">Dini Andriani</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>Relationship Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">Relationship Core Team</span>
                                 </div>
                             </span>
                         </div>
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
-                            <img src="/Member/arta.png" alt="" />
+                            <img className="lg:w-[85%]" src="/Member/arta.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-bold text-xl xl:text-2xl">Artamananda</h3>
+                                <h3 className="font-bold text-xl 2xl:text-2xl">Artamananda</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>Media and Digital Branding Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">Media and Digital Branding Core Team</span>
                                 </div>
                             </span>
                             
@@ -61,20 +61,20 @@ function Members() {
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
                             <img src="/Member/gerald.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-bold text-xl xl:text-2xl">Gerald Prakasa</h3>
+                                <h3 className="font-bold text-xl 2xl:text-2xl">Gerald Prakasa</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>Machine Learning Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">Machine Learning Core Team</span>
                                 </div>
                             </span>
                         </div>
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
-                            <img src="/Member/meutya.png" alt="" />
+                            <img className="lg:w-[100%]" src="/Member/meutya.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-bold text-xl xl:text-2xl">Meutya Dewi S</h3>
+                                <h3 className="font-bold text-xl 2xl:text-2xl">Meutya Dewi S</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>Project Management Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">Project Management Core Team</span>
                                 </div>
                             </span>
                         </div>
@@ -85,8 +85,8 @@ function Members() {
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
                                 <h3 className="font-bold text-xl xl:text-2xl">Muhammad Farras</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>Mobile Development Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">Mobile Development Core Team</span>
                                 </div>
                             </span>
                         </div>
@@ -95,8 +95,8 @@ function Members() {
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
                                 <h3 className="font-bold text-xl xl:text-2xl">Gandi Subara</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>UI/UX Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">UI/UX Core Team</span>
                                 </div>
                             </span>
                         </div>
@@ -105,8 +105,8 @@ function Members() {
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
                                 <h3 className="font-bold text-xl xl:text-2xl">Arya Yunanta</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>Web Development Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">Web Development Core Team</span>
                                 </div>
                             </span>
                         </div>
@@ -115,8 +115,8 @@ function Members() {
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
                                 <h3 className="font-bold text-xl xl:text-2xl">Nabiel Omar S</h3>
                                 <div className="text-[#4A4848]" >
-                                    <p className="font-normal text-base">Sriwijaya University</p>
-                                    <span>BackEnd Development Core Team</span>
+                                    <p className="font-normal text-sm xl:text-base 2xl:text-base">Sriwijaya University</p>
+                                    <span className="font-normal text-sm xl:text-base 2xl:text-base">BackEnd Development Core Team</span>
                                 </div>
                             </span>
                         </div>

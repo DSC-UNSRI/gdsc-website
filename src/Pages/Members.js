@@ -48,7 +48,7 @@ function Members() {
                             </span>
                         </div>
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
-                            <img className="lg:w-[85%]" src="/Member/arta.png" alt="" />
+                            <img className="lg:w-[85%] xl:w-auto" src="/Member/arta.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
                                 <h3 className="font-bold text-xl 2xl:text-2xl">Artamananda</h3>
                                 <div className="text-[#4A4848]" >
@@ -69,7 +69,7 @@ function Members() {
                             </span>
                         </div>
                         <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
-                            <img className="lg:w-[100%]" src="/Member/meutya.png" alt="" />
+                            <img className="lg:w-[100%] xl:w-auto" src="/Member/meutya.png" alt="" />
                             <span className="flex flex-col w-[100%] items-center gap-2 xl:gap-2">
                                 <h3 className="font-bold text-xl 2xl:text-2xl">Meutya Dewi S</h3>
                                 <div className="text-[#4A4848]" >

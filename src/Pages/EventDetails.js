@@ -1,11 +1,27 @@
 import {Link} from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
 
 function EventDetails() {
    return (
         <section className="w-screen leading-relaxed text-gray-900 lg:bg-white overflow-x-hidden pb-24">
-
             {/*Banner*/}
-            
+            <Carousel showArrows showIndicators infiniteLoop swipeable dynamicHeight useKeyboardArrows showStatus={false} showThumbs={false}>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+            </Carousel>
             <div className="bg-[#373737] py-4 2xl:py-5">
                 <h3 className="text-white text-center text-lg xl:text-xl 2xl:text-2xl">Upcoming Events</h3>
             </div>

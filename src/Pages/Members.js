@@ -1,6 +1,6 @@
 function Members() { 
     return (
-        <section className="inline-block w-full overflow-x-hidden overflow-y-hidden mt-24 pb-16 xl:mt-28" >
+        <section className="inline-block w-full overflow-x-hidden overflow-y-hidden mt-16 pb-16 xl:mt-20" >
             <img className="absolute top-[-2rem] right-[-7rem]" src="/Member/lingkaranHijau.png" alt="" />
             {/*Leader and CO-Leader*/}
             <div

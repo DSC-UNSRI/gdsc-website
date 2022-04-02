@@ -4,7 +4,7 @@ import EventItem from "../Components/EventItem";
 function Home() {
     return (
         <main
-            className="w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white overflow-x-hidden mt-16 pb-24">
+            className="w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white overflow-x-hidden pb-24">
             {/*Hero*/}
             <div style={{backgroundImage: "url(/bg-home.png)", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
                  className="w-full h-[24em] xl:h-[36em] 2xl:h-[42em]">

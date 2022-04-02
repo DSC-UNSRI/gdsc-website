@@ -1,6 +1,6 @@
 function EventDetailsWithDay() {
     return (
-        <section className="leading-relaxed text-gray-900 lg:bg-white overflow-x-hidden mt-10 xl:mt-12 pb-28">
+        <section className="leading-relaxed text-gray-900 lg:bg-white overflow-x-hidden pb-28">
           
             {/*Banner*/}
             <div style={{backgroundImage: "url(/event/bg-events.png)", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}

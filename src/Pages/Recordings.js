@@ -3,7 +3,7 @@ import EventItem from "../Components/EventItem";
 export default function Community() {
     return (
         <main 
-            className="w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white overflow-x-hidden mt-16 pb-28">
+            className="w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white overflow-x-hidden pb-28">
             {/* WIP carousel */}
             <div className="mt-12 px-20 xl:px-28">
                 <h2 className="text-lg xl:text-xl font-bold mb-3 text-[#4285F4]">Recordings</h2>

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
-        <nav className="w-screen flex justify-between items-center shadow-md px-12 py-2 lg:text-sm xl:text-base fixed top-0 bg-white z-50" >
+        <nav className="w-screen flex justify-between items-center shadow-md px-12 py-2 lg:text-sm xl:text-base sticky top-0 bg-white z-50" >
             <div className="flex items-center">
                 <img src="/gdsc-unsri-logo.png" alt="gdsc-unsri-logo" className="xl:w-16 lg:w-12 h-fit"/>
                 <div className="ml-3">

@@ -55,4 +55,20 @@ body {
         @apply bg-white border border-[#A3A3A366] text-[#4285F4] hover:border-[#4285F4] duration-150 hover:bg-[#4285F4]
         hover:text-white rounded-full hover:shadow-lg py-1 w-1/2 px-3 lg:w-11/12 xl:w-5/6 text-center !important;
     }
+
+    .carousel.carousel-slider .control-arrow {
+        @apply p-6;
+    }
+
+    .carousel .control-next.control-arrow:before {
+        @apply border-l-[8px] border-l-gray-800;
+    }
+
+    .carousel .control-prev.control-arrow:before {
+        @apply border-r-[8px] border-r-gray-800;
+    }
+
+    .carousel .control-dots .dot {
+        @apply bg-gray-800 shadow-none w-1.5 h-1.5 mx-1.5;
+    }
 }

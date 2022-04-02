@@ -131,7 +131,7 @@ function Home() {
                         <p className="text-sm xl:text-base font-medium text-gray-600 hover:text-gray-800 transition ml-2 xl:ml-3">More &rsaquo;&rsaquo;</p>
                     </Link>
                 </div>
-                <div className="flex flex-wrap justify-between items-center mt-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-2 md:gap-7 items-center mt-5">
                     {/*Item*/}
                     <EventItem 
                         title="Cracking Coding Interview"

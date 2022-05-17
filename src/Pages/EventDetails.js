@@ -1,53 +1,27 @@
 import {Link} from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
 
 function EventDetails() {
    return (
-        <section className="w-screen leading-relaxed text-gray-900 lg:bg-white overflow-x-hidden mt-10 xl:mt-12 pb-24">
-
+        <section className="w-screen leading-relaxed text-gray-900 lg:bg-white overflow-x-hidden pb-24">
             {/*Banner*/}
-            <div style={{backgroundImage: "url(/event/bg-events.png)", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
-            className="w-full h-[36em] xl:h-[42em] 2xl:h-[42em] ">
-                
-                <div className="relative flex flex-col w-[90%] 2xl:w-[90%] text-center text-gray-900 align-center justify-center gap-8 xl:gap-16 mb-5 xl:mb-8 mx-auto">
-                    <div className="absolute left-0 items-center">
-                        <img src="/event/left.png" className="w-6 xl:w-7 2xl:w-8"/>
-                    </div>
-                    <div className="absolute right-0 items-center">
-                        <img src="/event/right.png" className="w-6 xl:w-7 2xl:w-8"/>
-                    </div>
-                    <div>
-                    <h1 className="font-normal mt-8 text-[#23552E] text-2xl xl:text-3xl 2xl:text-4xl xl:mt-10 2xl:mt-10">Our Speakers :</h1>
-                    </div>
-                    <div className="flex flex-row items-center justify-center gap-12 xl:gap-28 xl:-mt-5 2xl:-mt-6">
-                        <div className="flex flex-col items-center text-center gap-4 xl:gap-4 ">
-                            <img className="lg:w-56 xl:w-64 2xl:w-64" src="/event/circle.png" alt="" />
-                            <span className="flex flex-col w-[80%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-semibold text-xl xl:text-2xl text-gray-700">Gerald Plakasa</h3>
-                            </span>
-                        </div>
-                        <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
-                            <img className="lg:w-56 xl:w-64 2xl:w-64" src="/event/circle.png" alt="" />
-                            <span className="flex flex-col w-[80%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-semibold text-xl xl:text-2xl text-gray-700">Ferza Reyaldi</h3>
-                            </span>
-                        </div>
-                        <div className="flex flex-col items-center text-center gap-4 xl:gap-4">
-                            <img className="lg:w-56 xl:w-64 2xl:w-64" src="/event/circle.png" alt="" />
-                            <span className="flex flex-col w-[80%] items-center gap-2 xl:gap-2">
-                                <h3 className="font-semibold text-xl xl:text-2xl text-gray-700">Galuh Sahid</h3>
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex flex-col font-medium xl:-mt-6 items-center">
-                        <h1 className="text-4xl xl:text-5xl 2xl:text-5xl text-[#39325F]">Start Your Machine Learning</h1>
-                        <h3 className="text-lg xl:text-xl mt-4 2xl:text-2xl text-[#39325F]">28 March 2022, 10.00 AM</h3>
-                    </div>                 
-                    <div className="flex flex-col relative items-center py-2 xl:-mt-7">
-                        <img className="w-20 xl:w-24 2xl:w-32" src="/event/point.png" alt=""/>    
-                    </div>    
-                </div>    
-
-            </div> 
+            <Carousel showArrows showIndicators infiniteLoop swipeable dynamicHeight useKeyboardArrows showStatus={false} showThumbs={false}>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+                <div>
+                    <img src="/placeholder-carousel.png"/>
+                </div>
+            </Carousel>
             <div className="bg-[#373737] py-4 2xl:py-5">
                 <h3 className="text-white text-center text-lg xl:text-xl 2xl:text-2xl">Upcoming Events</h3>
             </div>

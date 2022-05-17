@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Community() {
     return (
         <main 
-            className="w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white overflow-x-hidden mt-16 pb-0">
+            className="w-screen leading-relaxed text-gray-900 md:bg-amber-300 lg:bg-white overflow-x-hidden pb-0">
             {/* WIP carousel */}
             <div className="mt-12">
                 <div className="flex items-center justify-between px-20 xl:px-28">

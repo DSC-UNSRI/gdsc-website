@@ -9,7 +9,7 @@ import ContactUs from "./Pages/Contactus";
 import Footer from "./Components/Footer";
 import Community from "./Pages/Community";
 import Recordings from "./Pages/Recordings";
-
+import RecordingVideo from "./Pages/RecordingVideo";
 function App() {
     return (
         <BrowserRouter>
@@ -22,6 +22,7 @@ function App() {
                 <Route path='events/:eventId' element={<EventDetails/>}/>
                 <Route path='ContactUs' element={<ContactUs/>}/>
                 <Route path='recordings' element={<Recordings/>}/>
+                <Route path='recordingvideo' element={<RecordingVideo/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
             <Footer />

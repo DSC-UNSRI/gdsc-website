@@ -17,6 +17,7 @@ function Navbar() {
                 <Link className="hover:text-gray-900 transition" to='/events'>Upcoming Events</Link>
                 <Link className="hover:text-gray-900 transition" to='/members'>Members</Link>
                 <Link className="hover:text-gray-900 transition" to='/about'>About GDSC</Link>
+                <Link className="hover:text-gray-900 transition" to='/recordingvideo'>Recording Video</Link>
             </div>
         </nav>
     );
